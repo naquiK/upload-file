@@ -1,5 +1,4 @@
 const express = require("express");
-const { db } = require("../Authen-Author/model/userModel");
 const dbConnection = require("./DBConnection/dbConnection");
 const router = require("./routers/router");
 require("dotenv").config();
